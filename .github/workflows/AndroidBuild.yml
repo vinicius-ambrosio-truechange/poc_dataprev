@@ -45,5 +45,6 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: AndroidCICD.apk
-          path: app/build/outputs/apk/appstore/debug/app-appstore-debug.apk
+          name: poc-dataprev.apk
+          overwrite: true
+          path: android/app/build/outputs/apk/appstore/debug/app-appstore-debug.apk
